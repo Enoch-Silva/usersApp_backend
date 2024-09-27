@@ -5,7 +5,7 @@ import userRoutes from "./routes/users";
 const app = express();
 const port = process.env.PORT || 3300;
 
-const allowedOrigins = ["http://localhost:3000"];
+const allowedOrigins = "*";
 const options: cors.CorsOptions = {
   origin: allowedOrigins,
 };
